@@ -6,8 +6,7 @@ flickit.config(function($stateProvider, $urlRouterProvider) {
         url: "",
         views: {
             'welcome': {
-                templateUrl: "partials/welcome.html",
-                controller: "ViewsCtrl"
+                templateUrl: "partials/welcome.html"
 
             } 
         }
@@ -20,7 +19,7 @@ flickit.config(function($stateProvider, $urlRouterProvider) {
                 templateUrl: "partials/header.html"
             },
             'leftbar': {
-                templateUrl: "partials/leftbar.html",
+                templateUrl: "partials/leftbar.html"
             },         
             'mainpage': {
                 templateUrl: "partials/mainpage.html"

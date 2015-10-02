@@ -1,6 +1,17 @@
+hr {
+	border: solid;
+	border-width: 1px;
+	color: #B2B2CC;
+}
 .welcome {
     margin-top: 80px; 
 }
 .gray-text {
 	color: #B2B2CC;
+}
+.review-input {
+	padding-left: 25%;
+}
+.review-text {
+	padding-left: 25%;
 }
