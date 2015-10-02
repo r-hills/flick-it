@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="flickit">
+<head>
+  <title>Flickit</title>
+  <meta charset="UTF-8">
+  <script src="lib/angular.js"></script>
+  <script src="lib/angular-ui-router.js"></script>
+  <script src="app.js"></script>
+  <script src="controllers/ViewsController.js"></script>
+  <script src="js/jquery-1.11.3.js"></script>  
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+	<div class="container">
+
+	  <div ui-view="welcome"></div>
+	  <div ui-view="header"></div>
+	  <div ui-view="leftbar"></div>
+	  <div ui-view="mainpage"></div>
+
+	</div>
+</body>
+</html>
+
+
