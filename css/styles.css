@@ -1,3 +1,7 @@
+h5 {
+	text-decoration: underline;
+	font-weight: bold; 
+}
 hr {
 	border: solid;
 	border-width: 1px;
