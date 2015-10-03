@@ -3,6 +3,9 @@ hr {
 	border-width: 1px;
 	color: #B2B2CC;
 }
+input {
+	margin-bottom: 15px;
+}
 .welcome {
     margin-top: 80px; 
 }
@@ -12,6 +15,21 @@ hr {
 .review-input {
 	padding-left: 25%;
 }
-.review-text {
+.review-title {
 	padding-left: 25%;
+	text-align: center;
+}
+.review-text {
+	padding-left: 12%;
+	width: 95%;
+}
+.center {
+	text-align: center;
+}
+.center form {
+	display:inline-block;
+}
+
+.invert {
+	filter: invert(100%);
 }
