@@ -2,14 +2,36 @@ h5 {
 	text-decoration: underline;
 	font-weight: bold; 
 }
+h2, h3 {
+	font-weight: bold; 
+}
+
 hr {
 	border: solid;
 	border-width: 1px;
 	color: #B2B2CC;
 }
-input {
+.form-control {
 	margin-bottom: 15px;
+    border: 2px solid #9D9DBD;
+    font-weight: bold; 
+    color: black;
+    border-radius: 0;
 }
+
+.btn {
+    border: 2px solid #9D9DBD;
+    font-weight: bold; 
+}
+.details-text {
+	color: rgb(118, 118, 139);
+	font-weight: bold;
+}
+
+.input-placeholder {
+	color: black;
+}
+
 .welcome {
     margin-top: 80px; 
 }
@@ -36,4 +58,9 @@ input {
 
 .invert {
 	filter: invert(100%);
+}
+
+.nightMode {
+	color: white;
+	background: black;
 }

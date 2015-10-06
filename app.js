@@ -5,6 +5,9 @@ flickit.config(function($stateProvider, $urlRouterProvider) {
     $stateProvider.state('welcome', {
         url: "",
         views: {
+            'header': {
+                templateUrl: "partials/header.html"
+            },
             'welcome': {
                 templateUrl: "partials/welcome.html"
             }
